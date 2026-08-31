@@ -191,3 +191,21 @@ const styles = StyleSheet.create({
     fontSize: 12,
   },
 });
+/*
+import { useEffect } from "react";
+import { testBackend } from "../services/api";
+
+export default function HomeScreen() {
+
+  useEffect(() => {
+    testBackend()
+      .then((data) => {
+        console.log("BACKEND RESPONSE:", data);
+      })
+      .catch((error) => {
+        console.error("BACKEND ERROR:", error);
+      });
+  }, []);
+
+  return null;
+}*/
