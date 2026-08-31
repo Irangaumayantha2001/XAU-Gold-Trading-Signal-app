@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "855827056347",
+    "project_id": "xau-trading-signals",
+    "storage_bucket": "xau-trading-signals.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855827056347:android:20442169bc9c9bdc8a6efe",
+        "android_client_info": {
+          "package_name": "com.iranga.xausignals"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJfhnOc3FmEIKDslR22KZkelwVkBLY-jc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
