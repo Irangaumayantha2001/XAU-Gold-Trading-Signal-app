@@ -1,6 +1,16 @@
-from database import engine
-from models import Base
+from database import Base, engine
 
-print("Creating tables...")
-Base.metadata.create_all(bind=engine)
-print("✅ Done! Check Supabase now.")
+from models import PriceData, Signal, User
+
+
+def create_tables():
+
+    print("Creating database tables...")
+
+    Base.metadata.create_all(bind=engine)
+
+    print("Database tables created successfully!")
+
+
+if __name__ == "__main__":
+    create_tables()
